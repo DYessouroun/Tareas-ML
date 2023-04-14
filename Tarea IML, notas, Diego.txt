@@ -1,0 +1,8 @@
+Nota acerca de Clases, Intervalos y Stratify: 
+
+Objetivo: Crear grupos para las clases para poder hacer una clasificación con menos precisión con la posibilidad de hacer stratify y obtener de mejor mánera las carácteristicas que determinan cada clase (intervalos)
+
+Para esto:
+- Determinar el tamaño de los intervalos: En otras palabras se puede entender el problema de saber cuantas clases tener para el objetivo, por ejemplo de 50 en 50 o Rango/Clases = Tamaño intervalo para tener una cantidad fija de clases que pidamos-
+- Argumentar la decisión en terminos computacionales, (costo de entrenar para cada clase), teóricos (podemos abstraer mejor los intervalos que los valores en especificos) y prácticos (Una representación por intervalos es más útil que una representación para CADA valor)
+
