@@ -1,11 +1,25 @@
-## Nota acerca de Clases, Intervalos y Stratify: 
+# Notas a revisar
 
-### Objetivo: Crear grupos para las clases para poder hacer una clasificación con menos precisión con la posibilidad de hacer stratify y obtener de mejor mánera las carácteristicas que determinan cada clase (intervalos)
+## A revisar en conjunto
 
-Para esto:
-- Determinar el tamaño de los intervalos: En otras palabras se puede entender el problema de saber cuantas clases tener para el objetivo, por ejemplo de 50 en 50 o Rango/Clases = Tamaño intervalo para tener una cantidad fija de clases que pidamos-
-- Argumentar la decisión en terminos computacionales, (costo de entrenar para cada clase), teóricos (podemos abstraer mejor los intervalos que los valores en especificos) y prácticos (Una representación por intervalos es más útil que una representación para CADA valor)
+### 1.1.1 Exploración del conjunto de datos:
+
+- Arreglar bloque de código con muchos comentarios y reorganizar teniendo en cuenta que ya no debemos eliminar la columna de Functionning Day
+
+### 1.1.2 Exploración de Features: 
+
+- Pregunta f) También se deben eliminar lineas de códigos extras. En el dataframe perdemos la información acerca del día del mes al hacer la transformación, se propone agregar una columna con el día.
+
+- Última parte: revisar la correlación existente entre mounth y year, explicar que no tiene real impotancia por las fechas de los datos o algo así.
+
+### 1.1.3 Separación de conjuntos:
+
+- Revisar lo respectivo a usar (o no) Stratify y como está decisión puede cambiar al considerar la estrategía de cambiar el problema de regresión a un problema de clasificación (agrupar los target en intervalos más grandes).
+
+- Revisar si utilizar label encoding sobre weekday o eliminar esta variable del análisis, reemplazandola por el day. Agregar y justificar la inclusión del Functioning day con Label Enconding, esto dado que en la tarea se pronosticaba eliminar esta columna, cosa que no ocurrió y más aún, es de vital incluirla para predecir los valores con 0.
 
 > Diego: Opino que es buena idea tener un espacio como este para anotar todas las cosas importantes que no debemos olvidar sobre la tarea!
+
+> Agregué el day a las columnas de los dataframe y boté weekday  
 
 
