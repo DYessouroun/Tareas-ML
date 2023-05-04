@@ -39,8 +39,16 @@
 
 - Eliminar Weekday y dayofweek agregando day me imagino funcionará mejor, dayofweek no le veo sentido y a su vez siento que repite información con Weekday, mientras este mismo además CREO que no entrega información relevante por un análisis anterior donde vimos que en promedio se vende tanto en día de semana como en fin de semana.
 
-- Eliminar y simplificar código redundante y cosas extras para cumplir lo escrito en el punto anterior.
+- Se presenta una variante de la regresión de la pregunta 1.
 
+
+## Objetivos generales pendientes
+
+- Arreglar pregunta 1 parte 1 preguntandole al profesor.
+
+- Terminar pregunta 1.
+
+- Empezar pregunta 2 y terminarla.
 
 > Diego: Opino que es buena idea tener un espacio como este para anotar todas las cosas importantes que no debemos olvidar sobre la tarea!
 
