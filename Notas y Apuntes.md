@@ -20,6 +20,5 @@
 
 > Diego: Opino que es buena idea tener un espacio como este para anotar todas las cosas importantes que no debemos olvidar sobre la tarea!
 
-> Agregué el day a las columnas de los dataframe y boté weekday  
 
 
