@@ -24,6 +24,16 @@
 
 - En esta misma linea, si agregamos los días, el ciclo depende del mes, pudiendo ser 28, 29, 30 o 31, en está branch se utiliza 31 como nexo común asumiendo el error que esto puede traer, pero en la main se debe considerar utiliar dependiendo del día.
 
+### 1.2.3 Modelo SGD
+
+- Al llegar a este punto, llega la duda si debemos utilizar las variables binarias como (0,1) o como (-1,1)
+
+
+## Notas branch personal:
+
+- Eliminar Weekday y dayofweek agregando day me imagino funcionará mejor, dayofweek no le veo sentido y a su vez siento que repite información con Weekday, mientras este mismo además CREO que no entrega información relevante por un análisis anterior donde vimos que en promedio se vende tanto en día de semana como en fin de semana.
+
+- Eliminar y simplificar código redundante y cosas extras para cumplir lo escrito en el punto anterior.
 
 
 > Diego: Opino que es buena idea tener un espacio como este para anotar todas las cosas importantes que no debemos olvidar sobre la tarea!
