@@ -7,12 +7,13 @@
 - Arreglar bloque de código con muchos comentarios y reorganizar teniendo en cuenta que ya no debemos eliminar la columna de Functionning Day. Hacer dos versiones: una con functionaning day y sin functionaning day, etc.
 
 > Preguntar al profe si se puede eliminar la fila y si hacemos eso no nos mata.
+> Pregunta extra: Que tanta libertad tenemos en la tarea? modificar datos a nuestro gusto (siguiendo la guia de la tarea), cambiar los parametros de los modelos segun estimemos convenientes, etc.
 
 ### 1.1.2 Exploración de Features: 
 
 - Pregunta f) También se deben eliminar lineas de códigos extras. En el dataframe perdemos la información acerca del día del mes al hacer la transformación, se propone agregar una columna con el día.
 
-> Ocupamos day o dayofweek?
+> Preguntar si usamos day o dayofweek?
 
 - Última parte: revisar la correlación existente entre mounth y year, explicar que no tiene real impotancia por las fechas de los datos o algo así.
 
@@ -34,12 +35,28 @@
 
 - Al llegar a este punto, llega la duda si debemos utilizar las variables binarias como (0,1) o como (-1,1)
 
+- El gráfico del Training error vs Validation error me huele malito usando Early Stopping, si se quita todo se ve mejor.
+
+> Porque debemos usar early stopping? podemos ponerle más holgura para alcanzar mejores resultados?
+
+- Nos piden usar partial_fit y earlystopping, pero para usar partial_fit segun el codigo se debe hacer sin earlystopping, eliminare partial_fit y usare el normal.
+
+> Hasta que punto podemos cambiar los parámetros de los modelos para buscar mejorar resultados? o debemos dejarlo como se propone en la tarea?
+
 
 ## Notas branch personal:
+
+### Diego Editing.
 
 - Eliminar Weekday y dayofweek agregando day me imagino funcionará mejor, dayofweek no le veo sentido y a su vez siento que repite información con Weekday, mientras este mismo además CREO que no entrega información relevante por un análisis anterior donde vimos que en promedio se vende tanto en día de semana como en fin de semana.
 
 - Se presenta una variante de la regresión de la pregunta 1.
+
+### Bye bye columnn functionaning.
+
+- Use free option to change the parameters of the model
+
+- Drop that column with that observations
 
 
 ## Objetivos generales pendientes
