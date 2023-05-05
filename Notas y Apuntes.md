@@ -54,6 +54,12 @@
 
 ### Bye bye columnn functionaning.
 
+- Hay varios edits importantes respecto a comentarios y redacción que deben adaptarse al main
+
+- No considero la variable dayofweek para el estudio, únicamente la variable day con un cíclo fijo de 31 días. Preservo Weekday
+
+- Debo cambiar la respuesta h) acerca de las correlaciones según está versión.
+
 - Use free option to change the parameters of the model
 
 - Drop that column with that observations
