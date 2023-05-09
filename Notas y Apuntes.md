@@ -26,7 +26,34 @@
 
 > Porque debemos usar early stopping? podemos ponerle más holgura para alcanzar mejores resultados? Creo que la respuesta es si.
 
-- Nos piden usar partial_fit y earlystopping, pero para usar partial_fit segun el codigo se debe hacer sin earlystopping, eliminare partial_fit y usare el normal.
+- Hay un tema sobre early stopping y partial fit -Diego lo entiendo bien y como funciona toda esa parte.
+
+### 2.1.1
+
+- c) Criticar stratify=None
+
+- e) Falta comentar como sabemos que class es la tarjet y que significa cada cosa
+
+- Entender porque hay un for
+
+- f) Ver bien la matriz de confusion y si es la misma que la matriz de error, ademas tener total claridad de cual es el error tipo 1 y tipo 2
+
+
+- Agregar labels para entender que chucha es type 1 y type 2 o dar mas detalles dentro del informe
+
+### 2.2.3
+
+- b) Es así???
+- c) Reescribirla de forma más ordenada
+- d) falta hacerla creo...
+
+### 2.2.4
+
+- Dice usar 2 parámetros de gamma
+
+### Sobre conclusiones
+
+- Tener en cuenta que el mejor modelo depende del que busquemos, si buscamos predecir correctamente la mayor cantidad de dato hay un modelo que lo hace, mientras que si queremos minimizar el riesgo de comer un hongo venenoso, debemos usar utilizar otro modelo.
 
 ## Notas branch personal:
 
